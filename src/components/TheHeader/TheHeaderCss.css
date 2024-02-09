@@ -1,0 +1,53 @@
+.Month_Year{
+    left: 444px;
+    top: 32px;
+    position: absolute;
+    align-self: stretch;
+    color: rgba(11, 9, 40, 0.90);
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
+}
+.Day_Data{
+    top: 93px;
+    left: 444px;
+    align-self: stretch;
+    color: rgba(11, 9, 40, 0.50);
+    font-size: 20px;
+    font-style: normal;
+    position: absolute;
+    line-height: normal;
+}
+.rectangle_search{
+    top: 46px;
+    left: 929px;
+    position: absolute;
+    display: flex;
+    width: 399px;
+    padding: 18px 20px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 100px;
+    border: 1px solid #F7F6F9;
+    background: #FAFAFA;
+}
+.icon_search{
+    position: absolute;
+    top: 61px;
+    left: 949px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+input[placeholder]{
+    padding-left:  50px;
+}
+.line_header{
+    top: 144px;
+    left: 444px;
+    position: absolute;
+    height: 0px;
+    align-self: stretch;
+    stroke-width: 1px;
+    stroke: #D8D8D8;
+}
