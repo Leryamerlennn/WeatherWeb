@@ -3,29 +3,38 @@
     top: 295px;
     position: absolute;
     display: flex;
-    padding: 40px 20px;
+    padding: 40px 40px;
     flex-direction: column;
     align-items: center;
     gap: 32px;
     flex: 1 0 0;
     border-radius: 1000px;
     background: #FAFAFA;
+
+
 }
 
 .day_text{
+    
     color: rgba(28, 28, 28, 0.70);
-    position: relative;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
 }
-.temperature{
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.temperatureBody{
+    align-self: stretch;
     color: #1C1C1C;
     text-align: center;
-    position: relative;
     font-size: 52px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
 }
