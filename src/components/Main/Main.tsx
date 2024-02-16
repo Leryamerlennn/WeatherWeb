@@ -1,6 +1,7 @@
 import React from 'react';
 import {InterfaceWeather} from "./weatherBox";
 import "./mainCss.css"
+import Image from "next/image";
 
 export const Main = () => {
     return (
@@ -10,9 +11,7 @@ export const Main = () => {
                 <InterfaceWeather></InterfaceWeather>
             </div>
             <div className="line_body">
-                <svg xmlns="http://www.w3.org/2000/svg" width="956" height="2" viewBox="0 0 956 2" fill="none">
-                    <path d="M0 1.12415H956" stroke="#D8D8D8"/>
-                </svg>
+                <Image src="/lineHeadFoot.svg" alt="Vercel Logo" className="line" width={1317} height={2}/>
             </div>
         </div>
     );

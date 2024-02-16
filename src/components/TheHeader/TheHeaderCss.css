@@ -1,5 +1,5 @@
 .Month_Year{
-    left: 444px;
+    left: 500px;
     top: 32px;
     position: absolute;
     align-self: stretch;
@@ -10,7 +10,7 @@
 }
 .Day_Data{
     top: 93px;
-    left: 444px;
+    left: 500px;
     align-self: stretch;
     color: rgba(11, 9, 40, 0.50);
     font-size: 20px;
@@ -20,7 +20,7 @@
 }
 .rectangle_search{
     top: 46px;
-    left: 929px;
+    left: 1350px;
     position: absolute;
     display: flex;
     width: 399px;
@@ -34,7 +34,7 @@
 .icon_search{
     position: absolute;
     top: 61px;
-    left: 949px;
+    left: 1370px;
     width: 24px;
     height: 24px;
     flex-shrink: 0;
@@ -44,7 +44,7 @@ input[placeholder]{
 }
 .line_header{
     top: 144px;
-    left: 444px;
+    left: 500px;
     position: absolute;
     height: 0px;
     align-self: stretch;

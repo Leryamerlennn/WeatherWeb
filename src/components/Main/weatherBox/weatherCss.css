@@ -1,5 +1,5 @@
 .rectangle_weather{
-    left: 444px;
+    left: 500px;
     top: 295px;
     position: absolute;
     display: flex;
@@ -13,9 +13,7 @@
 
 
 }
-
 .day_text{
-    
     color: rgba(28, 28, 28, 0.70);
     font-size: 28px;
     font-style: normal;

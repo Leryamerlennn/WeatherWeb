@@ -1,9 +1,9 @@
 .title{
     position: absolute;
-    left: 444px;
+    left: 500px;
     top: 184px;
     display: flex;
-    padding: 14px 360px;
+    padding: 14px 540px;
     align-items: flex-start;
     gap: 10px;
     flex: 1 0 0;
@@ -18,7 +18,7 @@
 }
 .line_body{
     position: absolute;
-    left: 444px;
+    left: 500px;
     top: 675px;
     width: 956px;
     stroke-width: 1px;
